@@ -1,0 +1,26 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: url("../images/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+header {
+    background: rgba(0,0,0,0.7);
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    background: rgba(0,0,0,0.6);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+img { margin: 10px; border-radius: 10px; }
