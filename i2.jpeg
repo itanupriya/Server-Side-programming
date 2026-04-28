@@ -1,0 +1,18 @@
+<img id="slide" src="i1.jpeg" width="300">
+<button onclick="prev()">Prev</button>
+<button onclick="next()">Next</button>
+
+<script>
+let images = ["i1.jpeg", "i2.jpeg", "i3.jpeg"];
+let index = 0;
+
+function next() {
+    index = (index + 1) % images.length;
+    document.getElementById("slide").src = images[index];
+}
+
+function prev() {
+    index = (index - 1 + images.length) % images.length;
+    document.getElementById("slide").src = images[index];
+}
+</script>
